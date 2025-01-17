@@ -1,0 +1,12 @@
+carDetails=[["Innova","900000","2016"],["Dzire","700000","2017"],["i20","500000","2013"],["i10","400000","2016"]];
+function displayCarDetails()
+{
+    var x=document.getElementById('SelectCar').value;if(x=="Innova")
+    document.getElementById('CarDetail').innerHTML=carDetails[0][0]+"-"+carDetails[0][1]+"-"+carDetails[0][2];
+    if(x=="Dzire")
+    document.getElementById('CarDetail').innerHTML=carDetails[1][0]+"-"+carDetails[1][1]+"-"+carDetails[1][2];
+    if(x=="i20")
+    document.getElementById('CarDetail').innerHTML=carDetails[2][0]+"-"+carDetails[2][1]+"-"+carDetails[2][2];
+    if(x=="i10")
+    document.getElementById('CarDetail').innerHTML=carDetails[3][0]+"-"+carDetails[3][1]+"-"+carDetails[3][2];
+}

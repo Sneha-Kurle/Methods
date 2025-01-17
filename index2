@@ -1,0 +1,11 @@
+function callMe() {
+    var name = "Arun";
+    var age = 28;
+    var reservedStatus = true;
+    String(name);
+    Number(age);
+    Boolean(reservedStatus);
+    document.write("<div id='name'>"+name+"</div>");
+    document.write("<div id='age'>"+age+"</div>");
+    document.write("<div id='reservedStatus'>"+reservedStatus+"</div>");
+}
